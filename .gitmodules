@@ -25,9 +25,6 @@
 [submodule "Build/Common"]
 	path = Build/Common
 	url = git://git.typo3.org/FLOW3/BuildEssentials.git
-[submodule "Packages/Application/Admin"]
-	path = Packages/Application/Admin
-	url = git://github.com/mneuhaus/FLOW3-Admin.git
 [submodule "Packages/Application/Org.Gucken.Events"]
 	path = Packages/Application/Org.Gucken.Events
 	url = ssh://gitosis@gucken.org/Org.Gucken.Events.git
