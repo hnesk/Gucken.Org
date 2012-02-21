@@ -1,0 +1,50 @@
+##
+# Admin package subroutes
+#
+
+-
+  name: 'Authentication Actions'
+  uriPattern: 'authentication(/{@action})'
+  appendExceedingArguments: true
+  defaults:
+    '@controller': 'Login'
+    '@action': 'index'
+
+-
+  name: 'Logout'
+  uriPattern: 'logout'
+  defaults:
+    '@action': 'logout'
+    '@package': 'Admin'
+    '@controller': 'Login'
+    '@format': 'html'
+
+-
+  name: 'Admin actions'
+  uriPattern: '{@action}'
+  defaults:
+    '@action': 'index'
+    '@controller': 'Standard'
+    '@format': 'html'
+    
+-
+  name: 'Admin actions'
+  uriPattern: '{@action}/{being}'
+  appendExceedingArguments: true
+  defaults:
+    '@action': 'index'
+    '@controller': 'Standard'
+    '@format': 'html'
+
+##
+# FLOW3 subroutes
+#
+
+-
+  name: 'FLOW3'
+  uriPattern: '<FLOW3Subroutes>'
+  defaults:
+    '@format': 'html'
+  subRoutes:
+    FLOW3Subroutes:
+      package: TYPO3.FLOW3

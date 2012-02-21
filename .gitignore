@@ -1,0 +1,4 @@
+Data/Logs/
+Data/Persistent/EncryptionKey
+Data/Temporary/*
+Web/_Resources/*
