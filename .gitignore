@@ -2,3 +2,5 @@ Data/Logs/
 Data/Persistent/EncryptionKey
 Data/Temporary/*
 Web/_Resources/*
+Configuration/PackageStates.php
+Packages/.Shortcuts
