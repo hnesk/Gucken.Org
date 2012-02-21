@@ -31,3 +31,12 @@
 [submodule "Packages/Application/Org.Gucken.Events"]
 	path = Packages/Application/Org.Gucken.Events
 	url = ssh://gitosis@gucken.org/Org.Gucken.Events.git
+[submodule "Packages/Application/Org.Gucken.Bielefeld"]
+	path = Packages/Application/Org.Gucken.Bielefeld
+	url = ssh://gitosis@gucken.org/Org.Gucken.Bielefeld.git
+[submodule "Packages/Application/Org.Gucken.Rad"]
+	path = Packages/Application/Org.Gucken.Rad
+	url = ssh://gitosis@gucken.org/Org.Gucken.Rad.git
+[submodule "Packages/Application/Org.Gucken.Markdown"]
+	path = Packages/Application/Org.Gucken.Markdown
+	url = ssh://gitosis@gucken.org/Org.Gucken.Markdown.git
