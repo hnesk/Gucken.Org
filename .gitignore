@@ -3,4 +3,6 @@ Data/Persistent/EncryptionKey
 Data/Temporary/*
 Web/_Resources/*
 Configuration/PackageStates.php
+Configuration/Settings.yaml
 Packages/.Shortcuts
+/nbproject/
