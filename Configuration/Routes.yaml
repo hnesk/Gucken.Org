@@ -1,12 +1,20 @@
 ##
 # FLOW3 subroutes
 #
-
 -
-  name: 'FLOW3'
-  uriPattern: '<FLOW3Subroutes>'
+  name: 'Gucken.Org'
+  uriPattern: '<GuckenOrgSubRoutes>'
   defaults:
-    '@format': 'html'
+    '@package':    'Org.Gucken.Events'    
+    '@format': 'html'  
   subRoutes:
-    FLOW3Subroutes:
-      package: TYPO3.FLOW3
+    GuckenOrgSubRoutes:
+      package: Org.Gucken.Events
+#-
+#  name: 'FLOW3'
+#  uriPattern: '<FLOW3Subroutes>'
+#  defaults:
+#    '@format': 'html'
+#  subRoutes:
+#    FLOW3Subroutes:
+#      package: TYPO3.FLOW3
