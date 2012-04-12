@@ -34,6 +34,3 @@
 [submodule "Packages/Application/Org.Gucken.Rad"]
 	path = Packages/Application/Org.Gucken.Rad
 	url = ssh://gitosis@gucken.org/Org.Gucken.Rad.git
-[submodule "Packages/Application/Org.Gucken.Markdown"]
-	path = Packages/Application/Org.Gucken.Markdown
-	url = ssh://gitosis@gucken.org/Org.Gucken.Markdown.git

@@ -8,8 +8,10 @@
 # possible configuration options.                                        #
 #                                                                        #
 
+
 TYPO3:
   FLOW3:
     persistence:
-      backendOptions:
-        dbname: 'flow3_functional_testing'     # adjust to your database name
+       # if you want to log executed SQL queries, enable the next 2 lines
+      doctrine:
+        sqlLogger: 'TYPO3\FLOW3\Persistence\Doctrine\Logging\SqlLogger'

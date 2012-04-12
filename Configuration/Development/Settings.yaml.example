@@ -18,5 +18,5 @@ TYPO3:
         password: ''         # adjust to your database password
 
        # if you want to log executed SQL queries, enable the next 2 lines
-#      doctrine:
-#        sqlLogger: 'TYPO3\FLOW3\Persistence\Doctrine\Logging\SqlLogger'
+      doctrine:
+        sqlLogger: 'TYPO3\FLOW3\Persistence\Doctrine\Logging\SqlLogger'
