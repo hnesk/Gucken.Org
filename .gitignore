@@ -4,5 +4,9 @@
 /Web/_Resources/*
 /Configuration/PackageStates.php
 /Configuration/Settings.yaml
+/Configuration/Production/IncludeCachedConfigurations.php
+/Configuration/Testing/
 /Packages/.Shortcuts
 /nbproject/
+/Build/Reports/
+/Packages/Assetic/
