@@ -34,3 +34,9 @@
 [submodule "Packages/Application/Org.Gucken.Rad"]
 	path = Packages/Application/Org.Gucken.Rad
 	url = ssh://gitosis@gucken.org/Org.Gucken.Rad.git
+[submodule "Packages/Application/Imagine"]
+	path = Packages/Application/Imagine
+	url = git://git.typo3.org/FLOW3/Packages/Imagine.git
+[submodule "Packages/Application/TYPO3.Media"]
+	path = Packages/Application/TYPO3.Media
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Media.git
