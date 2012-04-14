@@ -4,3 +4,4 @@ Data/Temporary/*
 Web/_Resources/*
 Configuration/PackageStates.php
 Packages/.Shortcuts
+Configuration/Settings.yaml
