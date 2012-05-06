@@ -1,5 +1,5 @@
 /Data/Logs/
-/Data/Persistent/EncryptionKey
+/Data/Persistent/*
 /Data/Temporary/*
 /Web/_Resources/*
 /Configuration/PackageStates.php
