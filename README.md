@@ -5,8 +5,6 @@ For a working installation there's some work to be one, sorry:
 ```bash
 git clone git://github.com/hnesk/Gucken.Org.git 
 cd Gucken.Org
-git submodule init
-git submodule update
 mysql -u root -p -e "CREATE DATABASE gucken_org CHARACTER SET utf8 COLLATE utf8_unicode_ci;"
 cp Configuration/Settings.yaml.example Configuration/Settings.yaml
 vi Configuration/Settings.yaml
