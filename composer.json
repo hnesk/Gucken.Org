@@ -6,12 +6,19 @@
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
+    "repositories": [
+        {"type": "vcs","url": "git@github.com:hnesk/Org.Gucken.Bielefeld.git"},
+        {"type": "vcs","url": "git@github.com:hnesk/Org.Gucken.Events.git"},
+        {"type": "vcs","url": "git@github.com:hnesk/Org.Gucken.Rad.git"}
+    ],
     "require": {
         "typo3/flow": "2.2.*",
         "typo3/welcome": "2.2.*",
         "typo3/media": "~1.1",
-        "hnesk/todate": "~1.0",
-        "doctrine/migrations": "@dev"
+        "doctrine/migrations": "@dev",
+        "org-gucken/rad":"dev-master",
+        "org-gucken/events":"dev-master",
+        "org-gucken/bielefeld":"dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "2.2.*",

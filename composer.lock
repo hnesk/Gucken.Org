@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "efcbbd7b60da8f9df3d92e8e8397a434",
+    "hash": "4238f8148c432d04d9017fe2646e0a5d",
     "packages": [
         {
             "name": "composer/installers",
@@ -843,6 +843,95 @@
                 "image processing"
             ],
             "time": "2014-06-16 20:53:48"
+        },
+        {
+            "name": "org-gucken/bielefeld",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hnesk/Org.Gucken.Bielefeld.git",
+                "reference": "8267f172d3d5989ae4a3597b90adfd65a76d8903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hnesk/Org.Gucken.Bielefeld/zipball/8267f172d3d5989ae4a3597b90adfd65a76d8903",
+                "reference": "8267f172d3d5989ae4a3597b90adfd65a76d8903",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Org\\Gucken\\Bielefeld": "Classes"
+                }
+            },
+            "support": {
+                "source": "https://github.com/hnesk/Org.Gucken.Bielefeld/tree/master",
+                "issues": "https://github.com/hnesk/Org.Gucken.Bielefeld/issues"
+            },
+            "time": "2014-11-07 19:02:28"
+        },
+        {
+            "name": "org-gucken/events",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hnesk/Org.Gucken.Events.git",
+                "reference": "70dbfe5343a4a5fc03d2d63e2d3d28817aec4b1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hnesk/Org.Gucken.Events/zipball/70dbfe5343a4a5fc03d2d63e2d3d28817aec4b1a",
+                "reference": "70dbfe5343a4a5fc03d2d63e2d3d28817aec4b1a",
+                "shasum": ""
+            },
+            "require": {
+                "hnesk/todate": "~1.0",
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Org\\Gucken\\Events": "Classes"
+                }
+            },
+            "support": {
+                "source": "https://github.com/hnesk/Org.Gucken.Events/tree/master",
+                "issues": "https://github.com/hnesk/Org.Gucken.Events/issues"
+            },
+            "time": "2014-11-07 19:52:02"
+        },
+        {
+            "name": "org-gucken/rad",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hnesk/Org.Gucken.Rad.git",
+                "reference": "c6764fbcf09924415a9851e8625209c3417732c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hnesk/Org.Gucken.Rad/zipball/c6764fbcf09924415a9851e8625209c3417732c5",
+                "reference": "c6764fbcf09924415a9851e8625209c3417732c5",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Org\\Gucken\\Rad": "Classes"
+                }
+            },
+            "description": "Missing ViewHelpers",
+            "support": {
+                "source": "https://github.com/hnesk/Org.Gucken.Rad/tree/master",
+                "issues": "https://github.com/hnesk/Org.Gucken.Rad/issues"
+            },
+            "time": "2014-11-07 18:49:19"
         },
         {
             "name": "symfony/console",
@@ -1844,7 +1933,10 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "doctrine/migrations": 20
+        "doctrine/migrations": 20,
+        "org-gucken/rad": 20,
+        "org-gucken/events": 20,
+        "org-gucken/bielefeld": 20
     },
     "prefer-stable": false,
     "platform": [],
